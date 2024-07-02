@@ -15,6 +15,6 @@ jobs:
           
       - name: Build, run, and push the hello-docker Docker image
         run: |
-          docker build . --tag ghcr.io/MateuszJakobscheBDY/gh-23417239571234781623:latest
-          docker run ghcr.io/MateuszJakobscheBDY/gh-23417239571234781623:latest
-          docker push ghcr.io/MateuszJakobscheBDY/gh-23417239571234781623:latest
+          docker build . --tag ghcr.io/mateuszjakobschebdy/gh-23417239571234781623:latest
+          docker run ghcr.io/mateuszjakobschebdy/gh-23417239571234781623:latest
+          docker push ghcr.io/mateuszjakobschebdy/gh-23417239571234781623:latest
